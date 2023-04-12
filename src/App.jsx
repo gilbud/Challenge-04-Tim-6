@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomeService />} />
-          <Route path="/search" element={<Search />} />
+          <Route path="search" element={<Search />} />
         </Routes>
       </BrowserRouter>
     </>
