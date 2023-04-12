@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Container } from "react-bootstrap";
+import { Navbar, Container, Button } from "react-bootstrap";
 
 function NavbarMovie() {
   return (
@@ -7,6 +7,7 @@ function NavbarMovie() {
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Movies Indonesia</Navbar.Brand>
+          <Button variant="warning">Register</Button>
         </Container>
       </Navbar>
     </>
