@@ -15,18 +15,20 @@ body {
   justify-content: space-between;
   align-items: center;
   column-gap: 20px;
-  background-color: aliceblue;
-  padding: 10px 30px;
 }
 
 .movie-card {
   color: black;
+  background-color: grey;
+  margin-bottom: 20px;
 }
 
-.img-container {
-  max-width: 295px;
-  height: 400px;
+.img-container,
+.movie-title,
+.movie-date {
+  max-width: 250px;
 }
+
 
 .img-card {
   width: 100%;
@@ -34,6 +36,3 @@ body {
   object-fit: cover;
 }
 
-.movie-title {
-  max-width: 295px;
-}
