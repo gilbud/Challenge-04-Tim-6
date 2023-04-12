@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 const imageUrl = "https://image.tmdb.org/t/p/w500";
 
 function MovieCard({ movie, showLink = true }) {
@@ -16,10 +16,10 @@ function MovieCard({ movie, showLink = true }) {
       <div className="movie-title">{movie.title}</div>
       <div className="movie-date"> {movie.release_date}</div>
       {showLink && (
-<Link to={`/movie/${movie.id}`} className="btn btn-primary">
-Details
-</Link>
-)}
+        <Link to={`/movie/${movie.id}`} className="btn btn-primary">
+          Details
+        </Link>
+      )}
     </div>
   );
 }

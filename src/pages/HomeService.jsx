@@ -1,6 +1,7 @@
 import { React, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
+import { Container } from "react-bootstrap";
 import MovieCard from "../components/MovieCard";
 
 const movieUrl = "https://api.themoviedb.org/3/movie/popular?page=1";
