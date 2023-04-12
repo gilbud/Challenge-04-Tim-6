@@ -40,7 +40,7 @@ function HomeService() {
   return (
     <Container>
       <div className="search-form">
-        <form onSubmit={handleSubmit} className="text-center my-5">
+        <form onSubmit={handleSubmit} className="text-center my-4">
           <input
             type="text"
             placeholder="Cari Film...."
