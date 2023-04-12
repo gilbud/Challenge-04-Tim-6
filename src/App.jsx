@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <NavbarMovie />
-
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomeService />} />
