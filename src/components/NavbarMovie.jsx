@@ -1,4 +1,5 @@
 import React from "react";
+import { Navbar, Container } from "react-bootstrap";
 
 function NavbarMovie() {
   return (
